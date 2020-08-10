@@ -1,0 +1,427 @@
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.newPage{
+
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+/* Page 1*/
+
+.page1{
+  height: 100vh;
+  background-image: url("/Images/model-3-hero-desktop-v2.jpg");
+  background-repeat:no-repeat;
+  background-position: 50% 40%;
+  background-size: cover;
+  color:#F7F8F8;
+}
+
+.nav1{
+  position: absolute;
+  left: 28%;
+}
+.teslaWhite{
+  float: left;
+  height:10px;
+  width: 110px;
+  margin-top: 20px;
+  filter: invert(100%);
+}
+
+.navbar li{
+  list-style: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar li a{
+  color: #F7F8F8;
+  text-decoration: none;
+}
+
+.navbar li a{
+  color: #F7F8F8;
+}
+
+.nav1 ul{
+  float: right;
+}
+
+.nav1 li{
+  float: left;
+}
+
+.nav1 li a{
+  display: block;
+  padding: 0px;
+  margin: 20px;
+}
+
+.hamburgerNavbar{
+  position: absolute;
+  right: 20px;
+}
+
+.hamburgerNavbar ul{
+  float: right;
+}
+
+.hamburgerNavbar li{
+  float: left;
+  margin: 0;
+}
+
+.hamburgerNavbar li a{
+  display: block;
+  padding: 0px;
+  margin: 20px 10px;
+  text-align:center;
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 44px;
+  display: block;
+  position: absolute;
+  top: 110px;
+  left: 47%;
+}
+
+.page1 .pas{
+  height: 24px;
+  width: 1px;
+  background-color: #f7f8f86b;
+  float:left;
+  font-size: 28px;
+}
+
+.page1 .pas1{
+  background-color: #F7F8F8;
+  width: 3px;
+}
+
+.page1 .leftNavBar{
+  position: absolute;
+  top: 320px;
+}
+
+.page1 .leftNavBar li{
+  margin: -3px;
+}
+
+.page1 .leftNavBar li a{
+  color: transparent;
+  margin: 10px 0 0 5px;
+  position: relative;
+  left: 5px;
+  top: 2px;
+}
+
+.page1 .leftNavBar li a:hover{
+  font-size: 13px;
+  color: #F7F8F8;
+}
+
+.footer1{
+  margin-left: 495px;
+}
+
+.clr{
+  height: 390px;
+  width: 100%;
+}
+
+.footLargeText{
+  font-size: 32px;
+}
+
+.footSmallText{
+  font-size: 16px;
+}
+
+.foot{
+  height: 80px;
+  width: 170px;
+  margin-top: 250px;
+}
+
+.foot > p{
+  padding: 5px;
+  text-align: center;
+}
+
+.foot1{
+  float: left;
+  border-right: 1px white solid;
+}
+
+.foot1 svg{
+  float: left;
+  width: 25%;
+  position: relative;
+  left: 30px;
+}
+
+.foot1.footLargeText{
+  float: right;
+  width: 75%;
+}
+
+.foot2{
+  float: left;
+  border-right: 1px white solid;
+}
+
+.foot3{
+  float: left;
+}
+
+.foot4{
+  float: left;
+  width: 170px;
+  height: 40px;
+  border: 3px white solid;
+  border-radius: 50px 50px;
+  position: relative;
+  top: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.foot4:hover{
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.foot4 :active{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  background-color: transparent;
+}
+
+.foot4 :visited{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  background-color: transparent;
+}
+
+.downArrow{
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+  left: 49.7%;
+}
+
+/* Page 2*/
+
+.page2{
+  height: 100vh;
+}
+
+.teslaBlack{
+  float: left;
+  height:10px;
+  width: 110px;
+  margin-top: 30px;
+}
+
+.right2{
+  float: right;
+  height: 100%;
+  width: 73%;
+  background-color: #F4F4F4;
+}
+
+.right2 img{
+  position: relative;
+  right: 155px;
+  top: 30px;
+  height: 760px;
+}
+
+.left2{
+  float: left;
+  width: 27%;
+  padding-left: 10px;
+  font-weight: normal;
+}
+
+.leftText{
+  position: relative;
+  top: 20px;
+}
+
+.safety > p{
+  text-align: left;
+}
+
+.safety{
+  margin: 40px 30px;
+}
+
+.smallHeadline{
+  font-size: 24px;
+  color: #8D8E91;
+}
+
+.bigHeadline{
+  font-size: 36px;
+  color: black;
+}
+
+.text{
+  font-size: 20px;
+  color: #383838b2;
+  font-weight: lighter;
+  padding-top: 20px;
+  line-height: 1.2em;
+}
+
+.stars{
+  height: 350px;
+  width: 350px;
+  background-color: #F4F4F4;
+  position: relative;
+  bottom: 320px;
+  left: 40px;
+  border-radius: 25px 25px;
+  z-index: -1;
+}
+
+.starsText .text1{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.starsText .text2{
+  text-align: left;
+  padding-left: 24px;
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.starsText .text3{
+  text-align: left;
+  padding-left: 24px;
+  padding-top: 0px;
+  font-size: 11px;
+}
+
+.fiveStars{
+  float: right;
+  position: relative;
+  right: 28px;
+  bottom: 30px;
+}
+
+.fiveStars2{
+  float: right;
+  position: relative;
+  right: 28px;
+  bottom: 22px;
+}
+
+.page2 .navbar{
+  position: relative;
+  bottom: 150px;
+}
+
+.page2 .pas{
+  height: 24px;
+  width: 1px;
+  background-color: #8d9292bd;
+  float:left;
+  font-size: 28px;
+}
+
+.page2 .pas1{
+  background-color: black;
+  width: 3px;
+}
+
+.page2 .leftNavBar li a{
+  color: transparent;
+  margin: 10px 0 0 5px;
+  position: relative;
+  left: 5px;
+  top: 2px;
+}
+
+.page2 .leftNavBar li a:hover{
+  font-size: 13px;
+  color: black;
+}
+
+.learnMore{
+  width: 50px;
+  height: 50px;
+  border: 4px black solid;
+  border-radius: 50px 50px;
+  background-color: transparent;
+  color: black;
+  position: relative;
+  bottom: 310px;
+  left: 40px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.learnMore:hover{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.learnMore:active{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+.learnMore:visited{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+
+.buttonOrder{
+  width: 170px;
+  height: 40px;
+  border: 3px black solid;
+  border-radius: 50px 50px;
+  background-color: transparent;
+  color: black;
+  position: relative;
+  bottom: 310px;
+  left: 170px;
+}
+
+.buttonOrder:hover{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.buttonOrder:active{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+.buttonOrder:visited{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
